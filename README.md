@@ -7,6 +7,7 @@ The project is built to be lightweight, easy to use, and extensible — ideal fo
 
 
 🧰 Tech Stack
+
 Frontend: HTML, Bootstrap
 
 Backend: Python, Flask
