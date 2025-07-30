@@ -32,6 +32,6 @@ Frontend: HTML & CSS
 
 Database: SQLite (with SQLAlchemy ORM)
 
-APIs: Google Weather API, Twilio
+APIs: Google Geocoding API, Google Weather API, Twilio
 
 Auth: Password hashing (e.g., werkzeug.security)
