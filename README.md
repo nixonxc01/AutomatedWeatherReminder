@@ -2,7 +2,7 @@
 
 An automated weather reminder web app that alerts users via SMS if it’s going to rain in their area — so they never forget their umbrella! 🌧️ Built using Python for the backend logic, integrated with Flask, HTML/CSS, SQLAlchemy, Twilio, and Google Weather API.
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🚀 Features
 
@@ -21,8 +21,7 @@ A Python script runs daily to fetch weather data for each user's location using 
 📲 SMS Notifications via Twilio
 If rain is expected, users receive an SMS alert through Twilio.
 
-
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧰 Tech Stack
 
 Backend Logic: Python
