@@ -1,18 +1,38 @@
-📡 Smart Weather Web App
+☔ Automated Weather Reminder App
 
-This is a Python-based Automated Weather Reminder web application designed to help users stay prepared for rainy days. The app uses the Google Weather API to fetch daily weather forecasts and determines if rain is expected in the user's specified location. If rain is likely, the app can notify users, helping them remember to bring an umbrella before they head out.
+An automated weather reminder web app that alerts users via SMS if it’s going to rain in their area — so they never forget their umbrella! 🌧️ Built using Python for the backend logic, integrated with Flask, HTML/CSS, SQLAlchemy, Twilio, and Google Weather API.
 
-The application features a simple and user-friendly interface built with HTML, Bootstrap, and Flask. Users can enter their email address and location through a web form, which the backend uses to retrieve weather data and prepare alerts.
 
-The project is built to be lightweight, easy to use, and extensible — ideal for future upgrades like scheduling daily reminders, integrating email notifications, or saving user preferences in a database. It serves as a practical demonstration of integrating APIs, handling form data, and building a responsive frontend with Python web frameworks.
+
+🚀 Features
+
+🧑‍💼 User Registration & Login
+Users can securely create an account, log in, and log out.
+
+🔐 Password Hashing & Authentication
+User credentials are protected using hashed passwords and stored in an SQLite database via SQLAlchemy ORM.
+
+📍 Location Input
+Users submit their location through a responsive HTML/CSS frontend.
+
+🌦️ Automated Daily Rain Check
+A Python script runs daily to fetch weather data for each user's location using the Google Weather API.
+
+📲 SMS Notifications via Twilio
+If rain is expected, users receive an SMS alert through Twilio.
+
 
 
 🧰 Tech Stack
 
-Frontend: HTML, CSS 
+Backend Logic: Python
 
-Backend: Python, Flask, SQLAlchemy
+Web Framework: Flask
 
-API: Google Weather API / Geocoding API (For location), Twilio (Sending Message to user) 
+Frontend: HTML & CSS
 
+Database: SQLite (with SQLAlchemy ORM)
 
+APIs: Google Weather API, Twilio
+
+Auth: Password hashing (e.g., werkzeug.security)
