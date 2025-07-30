@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Success</title>
+  <meta charset="UTF-8">
+  <title>Location Submitted</title>
+  <link rel="stylesheet" href="../static/styles.css">
 </head>
 <body>
-    <h1>Welcome, {{ email }}!</h1>
-    <p>You have registered successfully.</p>
-    <a href="/">Go back</a>
+
+<form action="{{ url_for('weather_page') }} ">
+  <div class="form-container">
+    <h2>✅ Location Saved!</h2>
+    <p>Your location has been successfully submitted.</p>
+    <p>We’ll notify you if it’s going to rain today.</p>
+
+    <button type="submit">Back to Home</button>
+  </div>
+</form>
+
 </body>
 </html>

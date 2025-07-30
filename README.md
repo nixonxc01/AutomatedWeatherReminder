@@ -9,10 +9,10 @@ The project is built to be lightweight, easy to use, and extensible — ideal fo
 
 🧰 Tech Stack
 
-Frontend: HTML, Bootstrap
+Frontend: HTML, CSS 
 
-Backend: Python, Flask
+Backend: Python, Flask, SQLAlchemy
 
-API: Google Weather API / Geocoding API (For location) 
+API: Google Weather API / Geocoding API (For location), Twilio (Sending Message to user) 
 
 
